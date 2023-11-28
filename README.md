@@ -4,7 +4,7 @@ Este progeto foi feito com [Angular CLI](https://github.com/angular/angular-cli)
 
 ## Server de Desenvolvimento
 
-Use em um terminal `ng serve` e em outro 'json-server --watch db.json', juntando os dois para dar um servidor de desenvolvimento. Navegue em `http://localhost:4200/` para funcinar. O aplicativo atualiza automaticamente quando algum arquivo é modificado. Não adianta mexer em algo que funciona.
+Use em um terminal `ng serve` e em outro `json-server --watch db.json`, juntando os dois para dar um servidor de desenvolvimento. Navegue em `http://localhost:4200/` para funcinar. O aplicativo atualiza automaticamente quando algum arquivo é modificado. Não adianta mexer em algo que funciona.
 
 ## Code scaffolding
 
