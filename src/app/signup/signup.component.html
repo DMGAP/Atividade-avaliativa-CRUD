@@ -1,0 +1,34 @@
+<div class ="container">
+    <div class="row">
+
+        <div class="col-md-6">
+            <div class="card"> 
+<div class="text-center">
+    <h1>Inscricao do aluno</h1>
+    <strong>Se inscreva a qualquer momento</strong><hr >
+</div>
+
+<form [formGroup]="signupform"(ngSubmit)="signup()">
+    <div class="mb-2">
+        <label for="exampleInputEmail1" class="form-label">Nome</label>
+        <input type="email" formControlName="name" class="form-control"placeholder="enter your name" id="exampleInputEmail1" aria-describedby="emailHelp">
+  <small *ngIf="signupform.get('name')?.invalid && signupform.get('name')?.touched"class="text-danger"> O nome e campo obrigatorio</small>
+    </div>
+    <div class="mb-2">
+      <label for="exampleInputEmail1" class="form-label">Email</label>
+      <input type="email" formControlName="email" class="form-control"placeholder="enter your email id" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <small *ngIf="signupform.get('email')?.invalid && signupform.get('email')?.touched"class="text-danger"> O email e campo obrigatorio</small>
+    </div>
+        <div class="mb-2">
+      <label for="exampleInputPassword1" class="form-label">Senha</label>
+      <input type="password" formControlName="password" class="form-control" placeholder="enter your password"id="exampleInputPassword1">
+      <small *ngIf="signupform.get('password')?.invalid && signupform.get('password')?.touched"class="text-danger"> A senha e campo obrigatorio</small> 
+    </div>
+    <button style="margin-top:3px;" type="submit"[disabled]="signupform.invalid" class="btn btn-primary">Inscreva-se</button>
+  </form>
+<a style="color:blue;margin-top:10px;"routerLink="/login">Ja faz parte da galera? Clique aqui e faça login</a>
+
+        </div>
+    </div>
+</div>
+</div>

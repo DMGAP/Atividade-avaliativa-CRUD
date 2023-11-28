@@ -1,0 +1,82 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "name": "jayesh2",
+      "email": "jaiesh@Gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "jEEt",
+      "email": "jEEt@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "jack",
+      "email": "jack@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "akashay",
+      "email": "akashay@gmail.com"
+    },
+    {
+      "id": 6,
+      "name": "kiran",
+      "email": "kiran7@gmail.com"
+    },
+    {
+      "id": 7,
+      "name": "Jaqueline",
+      "email": "jaquelinemae@gmail.com"
+    }
+  ],
+  "signup": [
+    {
+      "name": "jay",
+      "email": "jay@gmail.com",
+      "password": "abcd",
+      "id": 1
+    },
+    {
+      "name": "jack",
+      "email": "jack@gmail.com",
+      "password": "abcd",
+      "id": 2
+    },
+    {
+      "name": "Loucura",
+      "email": "loucura123@gmail.com",
+      "password": "loucura",
+      "id": 4
+    },
+    {
+      "name": "maluquinho",
+      "email": "maluquinho@gmail.com",
+      "password": "maluquinho",
+      "id": 5
+    },
+    {
+      "name": "maluquinho2",
+      "email": "maluquinho2@gmail.com",
+      "password": "maluquinho2",
+      "id": 7
+    },
+    {
+      "name": "Dan",
+      "email": "dan@gmail.com",
+      "password": "daniel123456",
+      "id": 9
+    },
+    {
+      "name": "Jaqueline",
+      "email": "jaquelinemae@gmail.com",
+      "password": "123456",
+      "id": 10
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
