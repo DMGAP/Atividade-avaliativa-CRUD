@@ -1,0 +1,8 @@
+Aluno:
+	Daniel Malheiros Garrocho Alves Pinheiro
+Unidade:
+	Teófilo Otoni
+Período:
+	8°
+Link do GITHUB do trabalho:
+	https://github.com/DMGAP/Atividade-avaliativa-CRUD/tree/main
